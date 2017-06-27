@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1Ez5gDrcEeepSIfY6D-nnw" name="Allgemeine_Benutzung_Student">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9n4-wDrlEeeohp79l3IUYg" name="Student"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-qMJQDrlEeeohp79l3IUYg" name="Account erstellen">
+    <include xmi:type="uml:Include" xmi:id="_ZaNt0Dr0Eeeohp79l3IUYg" addition="_Iq-JUDr0Eeeohp79l3IUYg"/>
+    <include xmi:type="uml:Include" xmi:id="_ZygSADr0Eeeohp79l3IUYg" addition="_IkbccDr0Eeeohp79l3IUYg"/>
+    <include xmi:type="uml:Include" xmi:id="_aLidEDr0Eeeohp79l3IUYg" addition="_IgjpEDr0Eeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-qMJQTrlEeeohp79l3IUYg" name="persönlichen Plan einsehen">
+    <extend xmi:type="uml:Extend" xmi:id="_-qMJQjrlEeeohp79l3IUYg">
+      <extendedCase xmi:type="uml:UseCase" href="General_Usage.uml#_g-jgIDTtEeeM0apRAeVCdg"/>
+      <extensionLocation xmi:type="uml:ExtensionPoint" href="General_Usage.uml#_zNJFkDTvEeeM0apRAeVCdg"/>
+    </extend>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-qMJQzrlEeeohp79l3IUYg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-qMJRDrlEeeohp79l3IUYg" name="Account verwalten">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-qMJRTrlEeeohp79l3IUYg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-qMJRjrlEeeohp79l3IUYg" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-qMJRzrlEeeohp79l3IUYg" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KcQCETrmEeeohp79l3IUYg" name="ExtensionPoint4"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_K18UcTrmEeeohp79l3IUYg" name="ExtensionPoint5"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-qMJSDrlEeeohp79l3IUYg" name="Account löschen"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-qMJSTrlEeeohp79l3IUYg" name="Ein-/Ausloggen"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__hiA8DrlEeeohp79l3IUYg" name="Accountdaten anpassen">
+    <extend xmi:type="uml:Extend" xmi:id="__hiA8TrlEeeohp79l3IUYg">
+      <extendedCase xmi:type="uml:UseCase" href="General_Usage.uml#_7HpzIDTxEeeM0apRAeVCdg"/>
+      <extensionLocation xmi:type="uml:ExtensionPoint" href="General_Usage.uml#_ghuLcTTzEeeM0apRAeVCdg"/>
+    </extend>
+    <extend xmi:type="uml:Extend" xmi:id="_KcQCEDrmEeeohp79l3IUYg" extendedCase="_-qMJRDrlEeeohp79l3IUYg" extensionLocation="_KcQCETrmEeeohp79l3IUYg"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_z5howTr1Eeeohp79l3IUYg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0Sp6cTr1Eeeohp79l3IUYg" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0ksFoTr1Eeeohp79l3IUYg" name="ExtensionPoint3"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__hiA8jrlEeeohp79l3IUYg" name="Benachrichtigungen verwalten">
+    <extend xmi:type="uml:Extend" xmi:id="__hiA8zrlEeeohp79l3IUYg">
+      <extendedCase xmi:type="uml:UseCase" href="General_Usage.uml#_7HpzIDTxEeeM0apRAeVCdg"/>
+      <extensionLocation xmi:type="uml:ExtensionPoint" href="General_Usage.uml#_SMQwETVnEeegCfEmxmgUdw"/>
+    </extend>
+    <extend xmi:type="uml:Extend" xmi:id="_K18UcDrmEeeohp79l3IUYg" extendedCase="_-qMJRDrlEeeohp79l3IUYg" extensionLocation="_K18UcTrmEeeohp79l3IUYg"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FfUssTr0Eeeohp79l3IUYg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_F3jmgTr0Eeeohp79l3IUYg" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GNrngTr0Eeeohp79l3IUYg" name="ExtensionPoint3"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Am67sDrmEeeohp79l3IUYg" name="Kommunizieren">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Am67sTrmEeeohp79l3IUYg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Am67sjrmEeeohp79l3IUYg" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Am67szrmEeeohp79l3IUYg" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IpPMUTrmEeeohp79l3IUYg" name="ExtensionPoint4"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_JImB0TrmEeeohp79l3IUYg" name="ExtensionPoint5"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Am67tDrmEeeohp79l3IUYg" name="Planungswunsch registrieren">
+    <extend xmi:type="uml:Extend" xmi:id="_Am67tTrmEeeohp79l3IUYg" extendedCase="_Am67sDrmEeeohp79l3IUYg" extensionLocation="_Am67sTrmEeeohp79l3IUYg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_IpPMUDrmEeeohp79l3IUYg" extendedCase="_Am67sDrmEeeohp79l3IUYg" extensionLocation="_IpPMUTrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Am67tjrmEeeohp79l3IUYg" name="Benachrichtigung erhalten">
+    <extend xmi:type="uml:Extend" xmi:id="_Am67tzrmEeeohp79l3IUYg" extendedCase="_Am67sDrmEeeohp79l3IUYg" extensionLocation="_Am67sjrmEeeohp79l3IUYg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_JImB0DrmEeeohp79l3IUYg" extendedCase="_Am67sDrmEeeohp79l3IUYg" extensionLocation="_JImB0TrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LfQ-QDrmEeeohp79l3IUYg" memberEnd="_LfavQDrmEeeohp79l3IUYg _LfavQTrmEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LfQ-QTrmEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LfQ-QjrmEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LfavQDrmEeeohp79l3IUYg" name="student" type="_9n4-wDrlEeeohp79l3IUYg" association="_LfQ-QDrmEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LfavQTrmEeeohp79l3IUYg" name="persönlichen plan einsehen" type="_-qMJQTrlEeeohp79l3IUYg" association="_LfQ-QDrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_L4JYUDrmEeeohp79l3IUYg" memberEnd="_L4JYUzrmEeeohp79l3IUYg _L4JYVDrmEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L4JYUTrmEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L4JYUjrmEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_L4JYUzrmEeeohp79l3IUYg" name="student" type="_9n4-wDrlEeeohp79l3IUYg" association="_L4JYUDrmEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_L4JYVDrmEeeohp79l3IUYg" name="account erstellen" type="_-qMJQDrlEeeohp79l3IUYg" association="_L4JYUDrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MbwbsDrmEeeohp79l3IUYg" memberEnd="_MbwbszrmEeeohp79l3IUYg _MbwbtDrmEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MbwbsTrmEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MbwbsjrmEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MbwbszrmEeeohp79l3IUYg" name="student" type="_9n4-wDrlEeeohp79l3IUYg" association="_MbwbsDrmEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MbwbtDrmEeeohp79l3IUYg" name="account löschen" type="_-qMJSDrlEeeohp79l3IUYg" association="_MbwbsDrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MxtdkDrmEeeohp79l3IUYg" memberEnd="_MxtdkzrmEeeohp79l3IUYg _MxtdlDrmEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MxtdkTrmEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MxtdkjrmEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MxtdkzrmEeeohp79l3IUYg" name="student" type="_9n4-wDrlEeeohp79l3IUYg" association="_MxtdkDrmEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MxtdlDrmEeeohp79l3IUYg" name="ein-/ausloggen" type="_-qMJSTrlEeeohp79l3IUYg" association="_MxtdkDrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NDFhcDrmEeeohp79l3IUYg" memberEnd="_NDFhczrmEeeohp79l3IUYg _NDFhdDrmEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NDFhcTrmEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NDFhcjrmEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NDFhczrmEeeohp79l3IUYg" name="student" type="_9n4-wDrlEeeohp79l3IUYg" association="_NDFhcDrmEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NDFhdDrmEeeohp79l3IUYg" name="account verwalten" type="_-qMJRDrlEeeohp79l3IUYg" association="_NDFhcDrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NTyP4DrmEeeohp79l3IUYg" memberEnd="_NTyP4zrmEeeohp79l3IUYg _NTyP5DrmEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NTyP4TrmEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NTyP4jrmEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NTyP4zrmEeeohp79l3IUYg" name="student" type="_9n4-wDrlEeeohp79l3IUYg" association="_NTyP4DrmEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NTyP5DrmEeeohp79l3IUYg" name="kommunizieren" type="_Am67sDrmEeeohp79l3IUYg" association="_NTyP4DrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6EYTYDrzEeeohp79l3IUYg" name="Kennwort anpassen">
+    <extend xmi:type="uml:Extend" xmi:id="_z5howDr1Eeeohp79l3IUYg" extendedCase="__hiA8DrlEeeohp79l3IUYg" extensionLocation="_z5howTr1Eeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-EONEDrzEeeohp79l3IUYg" name="Benachrichtigungs-Email anpassen">
+    <extend xmi:type="uml:Extend" xmi:id="_0ksFoDr1Eeeohp79l3IUYg" extendedCase="__hiA8DrlEeeohp79l3IUYg" extensionLocation="_0ksFoTr1Eeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IgjpEDr0Eeeohp79l3IUYg" name="Kennwort angeben"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IkbccDr0Eeeohp79l3IUYg" name="Identifikation/Email angeben"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Iq-JUDr0Eeeohp79l3IUYg" name="Benachrichtigungs-Email angeben"/>
+</uml:Model>

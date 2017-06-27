@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Q4P4kDVpEeegCfEmxmgUdw" name="Planungswünsche_Lehrende">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_-JJUADb7Eee4jMwjLmT8fQ" annotatedElement="_zQH8ADb7Eee4jMwjLmT8fQ">
+    <body>Benachrichtigung über&#xD;
+angenommenen oder abgelehnten Antrag&#xD;
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_T9fKEDb8Eee4jMwjLmT8fQ" annotatedElement="_IhwGkDb8Eee4jMwjLmT8fQ">
+    <body>(Nicht studiertes Fach)</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_xP-pMDb7Eee4jMwjLmT8fQ" name="Lehrender"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zQH8ADb7Eee4jMwjLmT8fQ" name="Benachrchtigung erhalten"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zgky0Db7Eee4jMwjLmT8fQ" name="Planungswunsch registrieren">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_J-nQsDb9Eee4jMwjLmT8fQ" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QYY2MDb9Eee4jMwjLmT8fQ" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_8rF9cTcCEee4jMwjLmT8fQ" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KKzD0TcDEee4jMwjLmT8fQ" name="ExtensionPoint4"/>
+    <include xmi:type="uml:Include" xmi:id="_MuhzkDb9Eee4jMwjLmT8fQ" addition="_IhwGkDb8Eee4jMwjLmT8fQ"/>
+    <include xmi:type="uml:Include" xmi:id="_NkoVIDb9Eee4jMwjLmT8fQ" addition="_JKXlwDb8Eee4jMwjLmT8fQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3Wi-0Db7Eee4jMwjLmT8fQ" memberEnd="_3Wi-0zb7Eee4jMwjLmT8fQ _3Wi-1Db7Eee4jMwjLmT8fQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3Wi-0Tb7Eee4jMwjLmT8fQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3Wi-0jb7Eee4jMwjLmT8fQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3Wi-0zb7Eee4jMwjLmT8fQ" name="lehrender" type="_xP-pMDb7Eee4jMwjLmT8fQ" association="_3Wi-0Db7Eee4jMwjLmT8fQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3Wi-1Db7Eee4jMwjLmT8fQ" name="benachrchtigung erhalten" type="_zQH8ADb7Eee4jMwjLmT8fQ" association="_3Wi-0Db7Eee4jMwjLmT8fQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9H1A8Db7Eee4jMwjLmT8fQ" memberEnd="_9H1A8zb7Eee4jMwjLmT8fQ _9H1A9Db7Eee4jMwjLmT8fQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9H1A8Tb7Eee4jMwjLmT8fQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9H1A8jb7Eee4jMwjLmT8fQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9H1A8zb7Eee4jMwjLmT8fQ" name="planungswunsch registrieren" type="_zgky0Db7Eee4jMwjLmT8fQ" association="_9H1A8Db7Eee4jMwjLmT8fQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9H1A9Db7Eee4jMwjLmT8fQ" name="lehrender" type="_xP-pMDb7Eee4jMwjLmT8fQ" association="_9H1A8Db7Eee4jMwjLmT8fQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IhwGkDb8Eee4jMwjLmT8fQ" name="Neigungsfach angeben"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Im99wDb8Eee4jMwjLmT8fQ" name="spezifischer gewünschter Unterrichtseinsatz">
+    <extend xmi:type="uml:Extend" xmi:id="_QYYPIDb9Eee4jMwjLmT8fQ" extendedCase="_zgky0Db7Eee4jMwjLmT8fQ" extensionLocation="_QYY2MDb9Eee4jMwjLmT8fQ"/>
+    <include xmi:type="uml:Include" xmi:id="_uOLPoDb8Eee4jMwjLmT8fQ" addition="_IsJ_wDb8Eee4jMwjLmT8fQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IsJ_wDb8Eee4jMwjLmT8fQ" name="Fächer/Kurse angeben"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IzldcDb8Eee4jMwjLmT8fQ" name="Angebot  neuer Wahlkurs/neues Wahlfach eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_J-mpoDb9Eee4jMwjLmT8fQ" extendedCase="_zgky0Db7Eee4jMwjLmT8fQ" extensionLocation="_J-nQsDb9Eee4jMwjLmT8fQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JKXlwDb8Eee4jMwjLmT8fQ" name="Lehrbefähigung angeben"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UmmjEDb9Eee4jMwjLmT8fQ" name="Abwesenheit eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_8rF9cDcCEee4jMwjLmT8fQ" extendedCase="_zgky0Db7Eee4jMwjLmT8fQ" extensionLocation="_8rF9cTcCEee4jMwjLmT8fQ"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9W2QMTcCEee4jMwjLmT8fQ" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_97nKITcCEee4jMwjLmT8fQ" name="ExtensionPoint2"/>
+    <include xmi:type="uml:Include" xmi:id="_U6tbcDraEeepSIfY6D-nnw" addition="_Wxr6kDb9Eee4jMwjLmT8fQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Wxr6kDb9Eee4jMwjLmT8fQ" name="Zeitraum eintragen"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YY_PkDb9Eee4jMwjLmT8fQ" name="Periodische Abwesenheit eintragen (Wochentag)">
+    <extend xmi:type="uml:Extend" xmi:id="_9W2QMDcCEee4jMwjLmT8fQ" extendedCase="_UmmjEDb9Eee4jMwjLmT8fQ" extensionLocation="_9W2QMTcCEee4jMwjLmT8fQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HESl4DcDEee4jMwjLmT8fQ" name="Sonstigen Wunsch eintragen / Kommentar">
+    <extend xmi:type="uml:Extend" xmi:id="_KKzD0DcDEee4jMwjLmT8fQ" extendedCase="_zgky0Db7Eee4jMwjLmT8fQ" extensionLocation="_KKzD0TcDEee4jMwjLmT8fQ"/>
+  </packagedElement>
+</uml:Model>

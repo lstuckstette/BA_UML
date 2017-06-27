@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_iBwGEDodEeek1qewXoHJYg" name="Planungswünsche_Student">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_wgFicDoeEeek1qewXoHJYg" annotatedElement="_HeIA8DoeEeek1qewXoHJYg">
+    <body>Nach erhalten eines vom Administrator generierten &#xD;
+vorläufigen Stunden-/Raumplanes&#xD;
+</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kw5M4DodEeek1qewXoHJYg" name="Student"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HeIA8DoeEeek1qewXoHJYg" name="Planungswunsch registrieren">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yEtrATorEeek1qewXoHJYg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ynrOIDorEeek1qewXoHJYg" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0Jx6EDorEeek1qewXoHJYg" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_NKp9kTosEeek1qewXoHJYg" name="ExtensionPoint4"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_J1zC8DoeEeek1qewXoHJYg" memberEnd="_J11fMDoeEeek1qewXoHJYg _J11fMToeEeek1qewXoHJYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_J104IDoeEeek1qewXoHJYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J104IToeEeek1qewXoHJYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_J11fMDoeEeek1qewXoHJYg" name="planungswunsch registrieren" type="_HeIA8DoeEeek1qewXoHJYg" association="_J1zC8DoeEeek1qewXoHJYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_J11fMToeEeek1qewXoHJYg" name="student" type="_kw5M4DodEeek1qewXoHJYg" association="_J1zC8DoeEeek1qewXoHJYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_d4ricDoeEeek1qewXoHJYg" name="Raumtausch eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_yEtrADorEeek1qewXoHJYg" extendedCase="_HeIA8DoeEeek1qewXoHJYg" extensionLocation="_yEtrATorEeek1qewXoHJYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_d8qDgDoeEeek1qewXoHJYg" name="Gewünschte Kurse eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_ynqnEDorEeek1qewXoHJYg" extendedCase="_HeIA8DoeEeek1qewXoHJYg" extensionLocation="_ynrOIDorEeek1qewXoHJYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_eIe5ADoeEeek1qewXoHJYg" name="Gewünschte Kurszeiten eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_0JxTADorEeek1qewXoHJYg" extendedCase="_HeIA8DoeEeek1qewXoHJYg" extensionLocation="_0Jx6EDorEeek1qewXoHJYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Kwm9ADosEeek1qewXoHJYg" name="Kommentar eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_NKp9kDosEeek1qewXoHJYg" extendedCase="_HeIA8DoeEeek1qewXoHJYg" extensionLocation="_NKp9kTosEeek1qewXoHJYg"/>
+  </packagedElement>
+</uml:Model>

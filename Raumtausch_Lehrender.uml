@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_FsE7EDVpEeegCfEmxmgUdw" name="Raumtausch_Lehrender">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_tKgMQDV0EeegCfEmxmgUdw" annotatedElement="_lbT3gDVqEeegCfEmxmgUdw">
+    <body>Benachrichtigung über&#xD;
+angenommenen oder abgelehnten Antrag</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_xLMDADogEeek1qewXoHJYg" annotatedElement="_r-LLkDogEeek1qewXoHJYg">
+    <body>Bei belegtem Raum</body>
+  </ownedComment>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_UaBWMDVpEeegCfEmxmgUdw" name="Lehrender"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_iTlHADVpEeegCfEmxmgUdw" name="Raumtausch beantragen">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FX3yITr6Eeeohp79l3IUYg" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_xJmDkDVqEeegCfEmxmgUdw" addition="_cgPZ8DVqEeegCfEmxmgUdw"/>
+    <include xmi:type="uml:Include" xmi:id="_xx9EEDVqEeegCfEmxmgUdw" addition="_fHP4cDVqEeegCfEmxmgUdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cgPZ8DVqEeegCfEmxmgUdw" name="Aktuellen Kurstermin wählen"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fHP4cDVqEeegCfEmxmgUdw" name="Gewünschten Ausweichraum wählen">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_wFQ8wDogEeek1qewXoHJYg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lbT3gDVqEeegCfEmxmgUdw" name="Benachrichtigung erhalten"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0ReagDVqEeegCfEmxmgUdw" memberEnd="_0RfBkTVqEeegCfEmxmgUdw _0RfBkjVqEeegCfEmxmgUdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0ReagTVqEeegCfEmxmgUdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0RfBkDVqEeegCfEmxmgUdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0RfBkTVqEeegCfEmxmgUdw" name="raumtausch beantragen" type="_iTlHADVpEeegCfEmxmgUdw" association="_0ReagDVqEeegCfEmxmgUdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0RfBkjVqEeegCfEmxmgUdw" name="lehrender" type="_UaBWMDVpEeegCfEmxmgUdw" association="_0ReagDVqEeegCfEmxmgUdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0wsGEDVqEeegCfEmxmgUdw" memberEnd="_0wstIDVqEeegCfEmxmgUdw _0wstITVqEeegCfEmxmgUdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0wsGETVqEeegCfEmxmgUdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0wsGEjVqEeegCfEmxmgUdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0wstIDVqEeegCfEmxmgUdw" name="benachrichtigung erhalten" type="_lbT3gDVqEeegCfEmxmgUdw" association="_0wsGEDVqEeegCfEmxmgUdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0wstITVqEeegCfEmxmgUdw" name="lehrender" type="_UaBWMDVpEeegCfEmxmgUdw" association="_0wsGEDVqEeegCfEmxmgUdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r-LLkDogEeek1qewXoHJYg" name="Tausch von Kollegen bestätigen lassen">
+    <extend xmi:type="uml:Extend" xmi:id="_FX3yIDr6Eeeohp79l3IUYg" extendedCase="_iTlHADVpEeegCfEmxmgUdw" extensionLocation="_FX3yITr6Eeeohp79l3IUYg"/>
+  </packagedElement>
+</uml:Model>

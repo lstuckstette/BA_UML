@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="__1B60DrcEeepSIfY6D-nnw" name="Allgemeine_Benutzung_Stundenplaner">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_98ijoDrmEeeohp79l3IUYg" name="Stundenplaner"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="__9txMDrmEeeohp79l3IUYg" name="Lehrender"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_A43x4DrnEeeohp79l3IUYg" name="(...)"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_HHl98DrnEeeohp79l3IUYg" name="&lt;&lt;extend>>" client="_98ijoDrmEeeohp79l3IUYg" supplier="__9txMDrmEeeohp79l3IUYg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JDwvsDrnEeeohp79l3IUYg" memberEnd="_JDwvszrnEeeohp79l3IUYg _JDwvtDrnEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDwvsTrnEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDwvsjrnEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JDwvszrnEeeohp79l3IUYg" name="(...)" type="_A43x4DrnEeeohp79l3IUYg" association="_JDwvsDrnEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JDwvtDrnEeeohp79l3IUYg" name="lehrender" type="__9txMDrmEeeohp79l3IUYg" association="_JDwvsDrnEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LJYYYDrnEeeohp79l3IUYg" name="Pläne generieren"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LJYYYTrnEeeohp79l3IUYg" name="Stammdaten verwalten">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_LJYYYjrnEeeohp79l3IUYg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_tYvvQTroEeeohp79l3IUYg" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_tq0WsTroEeeohp79l3IUYg" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_t_0WUTroEeeohp79l3IUYg" name="ExtensionPoint4"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uT_PgTroEeeohp79l3IUYg" name="ExtensionPoint5"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_urMOkTroEeeohp79l3IUYg" name="ExtensionPoint6"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vAo6IDroEeeohp79l3IUYg" name="ExtensionPoint7"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_viBv8TroEeeohp79l3IUYg" name="ExtensionPoint8"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_v3QZETroEeeohp79l3IUYg" name="ExtensionPoint9"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7BrqITroEeeohp79l3IUYg" name="ExtensionPoint10"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LJYYYzrnEeeohp79l3IUYg" name="Pläne verwalten">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_smd9wTroEeeohp79l3IUYg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_tCa58TroEeeohp79l3IUYg" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_OLPm4DrnEeeohp79l3IUYg" memberEnd="_OLPm4zrnEeeohp79l3IUYg _OLPm5DrnEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OLPm4TrnEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OLPm4jrnEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OLPm4zrnEeeohp79l3IUYg" name="pläne generieren" type="_LJYYYDrnEeeohp79l3IUYg" association="_OLPm4DrnEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_OLPm5DrnEeeohp79l3IUYg" name="stundenplaner" type="_98ijoDrmEeeohp79l3IUYg" association="_OLPm4DrnEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PZh-8DrnEeeohp79l3IUYg" memberEnd="_PZh-8zrnEeeohp79l3IUYg _PZh-9DrnEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PZh-8TrnEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PZh-8jrnEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PZh-8zrnEeeohp79l3IUYg" name="stundenplaner" type="_98ijoDrmEeeohp79l3IUYg" association="_PZh-8DrnEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PZh-9DrnEeeohp79l3IUYg" name="stammdaten verwalten" type="_LJYYYTrnEeeohp79l3IUYg" association="_PZh-8DrnEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Qi2XcDrnEeeohp79l3IUYg" memberEnd="_Qi2XczrnEeeohp79l3IUYg _Qi2XdDrnEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qi2XcTrnEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qi2XcjrnEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Qi2XczrnEeeohp79l3IUYg" name="pläne verwalten" type="_LJYYYzrnEeeohp79l3IUYg" association="_Qi2XcDrnEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Qi2XdDrnEeeohp79l3IUYg" name="stundenplaner" type="_98ijoDrmEeeohp79l3IUYg" association="_Qi2XcDrnEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xeB_EDrnEeeohp79l3IUYg" name="Schuljahr eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_tYvvQDroEeeohp79l3IUYg" extendedCase="_LJYYYTrnEeeohp79l3IUYg" extensionLocation="_tYvvQTroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xmpIgDrnEeeohp79l3IUYg" name="Ferien/Feiertage eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_tq0WsDroEeeohp79l3IUYg" extendedCase="_LJYYYTrnEeeohp79l3IUYg" extensionLocation="_tq0WsTroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xtdiMDrnEeeohp79l3IUYg" name="Lehrer eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_vAfwMDroEeeohp79l3IUYg" extendedCase="_LJYYYTrnEeeohp79l3IUYg" extensionLocation="_vAo6IDroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_x0xEEDrnEeeohp79l3IUYg" name="Fächer eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_viBv8DroEeeohp79l3IUYg" extendedCase="_LJYYYTrnEeeohp79l3IUYg" extensionLocation="_viBv8TroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_x8F0EDrnEeeohp79l3IUYg" name="Schülerdaten eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_v3QZEDroEeeohp79l3IUYg" extendedCase="_LJYYYTrnEeeohp79l3IUYg" extensionLocation="_v3QZETroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yDqbsDrnEeeohp79l3IUYg" name="Zeitraster eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_t_0WUDroEeeohp79l3IUYg" extendedCase="_LJYYYTrnEeeohp79l3IUYg" extensionLocation="_t_0WUTroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yIIsADrnEeeohp79l3IUYg" name="Räume eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_uT_PgDroEeeohp79l3IUYg" extendedCase="_LJYYYTrnEeeohp79l3IUYg" extensionLocation="_uT_PgTroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ydQncDrnEeeohp79l3IUYg" name="Klassen eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_urMOkDroEeeohp79l3IUYg" extendedCase="_LJYYYTrnEeeohp79l3IUYg" extensionLocation="_urMOkTroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_c-Q50DroEeeohp79l3IUYg" name="Lehrer-Wunschzettel verwalten"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gtHxMDroEeeohp79l3IUYg" memberEnd="_gtHxMzroEeeohp79l3IUYg _gtHxNDroEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gtHxMTroEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gtHxMjroEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gtHxMzroEeeohp79l3IUYg" name="stundenplaner" type="_98ijoDrmEeeohp79l3IUYg" association="_gtHxMDroEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gtHxNDroEeeohp79l3IUYg" name="lehrer wunschzettel verwalten" type="_c-Q50DroEeeohp79l3IUYg" association="_gtHxMDroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_i8ZsMDroEeeohp79l3IUYg" name="manuelle Änderungen eintragen">
+    <extend xmi:type="uml:Extend" xmi:id="_smd9wDroEeeohp79l3IUYg" extendedCase="_LJYYYzrnEeeohp79l3IUYg" extensionLocation="_smd9wTroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nA1yADroEeeohp79l3IUYg" name="Plan veröffentlichen">
+    <extend xmi:type="uml:Extend" xmi:id="_tCa58DroEeeohp79l3IUYg" extendedCase="_LJYYYzrnEeeohp79l3IUYg" extensionLocation="_tCa58TroEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_21FG0DroEeeohp79l3IUYg" name="Eintrag ändern">
+    <extend xmi:type="uml:Extend" xmi:id="_7BrqIDroEeeohp79l3IUYg" extendedCase="_LJYYYTrnEeeohp79l3IUYg" extensionLocation="_7BrqITroEeeohp79l3IUYg"/>
+  </packagedElement>
+</uml:Model>

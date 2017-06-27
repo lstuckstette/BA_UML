@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HJyAQDosEeek1qewXoHJYg" name="Planungswünsche_Stundenplaner">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Hna-gDosEeek1qewXoHJYg" name="Stundenplaner"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_QN4eADosEeek1qewXoHJYg" name="Planungswünsche von Lehrenden/Studenten einsehen"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SBUKgDosEeek1qewXoHJYg" name="Statistik über Planungswünsche einsehen"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UzYpgDosEeek1qewXoHJYg" name="spezifische Änderung in Plan einpflegen"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aLjBADosEeek1qewXoHJYg" memberEnd="_aLjBAzosEeek1qewXoHJYg _aLjoEDosEeek1qewXoHJYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aLjBATosEeek1qewXoHJYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aLjBAjosEeek1qewXoHJYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aLjBAzosEeek1qewXoHJYg" name="planungswünsche einsehen" type="_QN4eADosEeek1qewXoHJYg" association="_aLjBADosEeek1qewXoHJYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aLjoEDosEeek1qewXoHJYg" name="administrator" type="_Hna-gDosEeek1qewXoHJYg" association="_aLjBADosEeek1qewXoHJYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_anU-EDosEeek1qewXoHJYg" memberEnd="_anU-EzosEeek1qewXoHJYg _anU-FDosEeek1qewXoHJYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_anU-ETosEeek1qewXoHJYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_anU-EjosEeek1qewXoHJYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_anU-EzosEeek1qewXoHJYg" name="statistik über planungswünschte einsehen" type="_SBUKgDosEeek1qewXoHJYg" association="_anU-EDosEeek1qewXoHJYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_anU-FDosEeek1qewXoHJYg" name="administrator" type="_Hna-gDosEeek1qewXoHJYg" association="_anU-EDosEeek1qewXoHJYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bDpGoDosEeek1qewXoHJYg" memberEnd="_bDpGozosEeek1qewXoHJYg _bDpGpDosEeek1qewXoHJYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bDpGoTosEeek1qewXoHJYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bDpGojosEeek1qewXoHJYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bDpGozosEeek1qewXoHJYg" name="spezifische änderung in plan einflegen" type="_UzYpgDosEeek1qewXoHJYg" association="_bDpGoDosEeek1qewXoHJYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bDpGpDosEeek1qewXoHJYg" name="administrator" type="_Hna-gDosEeek1qewXoHJYg" association="_bDpGoDosEeek1qewXoHJYg"/>
+  </packagedElement>
+</uml:Model>

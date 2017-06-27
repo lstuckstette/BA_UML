@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_DMY4MDrdEeepSIfY6D-nnw" name="Allgemeine_Benutzung_Administrator">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9YFVQDryEeeohp79l3IUYg" name="Administrator"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_-5A8gDryEeeohp79l3IUYg" name="Stundenplaner"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_AChiQDrzEeeohp79l3IUYg" name="&lt;&lt;extend>>" client="_9YFVQDryEeeohp79l3IUYg" supplier="_-5A8gDryEeeohp79l3IUYg"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HVfZkDrzEeeohp79l3IUYg" name="(...)"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Jzg7MDrzEeeohp79l3IUYg" memberEnd="_Jzg7MzrzEeeohp79l3IUYg _Jzg7NDrzEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jzg7MTrzEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Jzg7MjrzEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Jzg7MzrzEeeohp79l3IUYg" name="(...)" type="_HVfZkDrzEeeohp79l3IUYg" association="_Jzg7MDrzEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Jzg7NDrzEeeohp79l3IUYg" name="stundenplaner" type="_-5A8gDryEeeohp79l3IUYg" association="_Jzg7MDrzEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_NAfNgDrzEeeohp79l3IUYg" name="Benutzer verwalten">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_NAfNgTrzEeeohp79l3IUYg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_NAfNgjrzEeeohp79l3IUYg" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fAnLETrzEeeohp79l3IUYg" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_frnP4TrzEeeohp79l3IUYg" name="ExtensionPoint4"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_NAfNgzrzEeeohp79l3IUYg" name="Public-Display verwalten"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XUhpIDrzEeeohp79l3IUYg" memberEnd="_XUhpIzrzEeeohp79l3IUYg _XUhpJDrzEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XUhpITrzEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XUhpIjrzEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XUhpIzrzEeeohp79l3IUYg" name="administrator" type="_9YFVQDryEeeohp79l3IUYg" association="_XUhpIDrzEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XUhpJDrzEeeohp79l3IUYg" name="public-display verwalten" type="_NAfNgzrzEeeohp79l3IUYg" association="_XUhpIDrzEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YhHYEDrzEeeohp79l3IUYg" memberEnd="_YhHYEzrzEeeohp79l3IUYg _YhHYFDrzEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YhHYETrzEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YhHYEjrzEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YhHYEzrzEeeohp79l3IUYg" name="administrator" type="_9YFVQDryEeeohp79l3IUYg" association="_YhHYEDrzEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YhHYFDrzEeeohp79l3IUYg" name="benutzer verwalten" type="_NAfNgDrzEeeohp79l3IUYg" association="_YhHYEDrzEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZDFcsDrzEeeohp79l3IUYg" name="Rechte verwalten">
+    <extend xmi:type="uml:Extend" xmi:id="_fAnLEDrzEeeohp79l3IUYg" extendedCase="_NAfNgDrzEeeohp79l3IUYg" extensionLocation="_fAnLETrzEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZHwhUDrzEeeohp79l3IUYg" name="Rollen verwalten">
+    <extend xmi:type="uml:Extend" xmi:id="_frnP4DrzEeeohp79l3IUYg" extendedCase="_NAfNgDrzEeeohp79l3IUYg" extensionLocation="_frnP4TrzEeeohp79l3IUYg"/>
+  </packagedElement>
+</uml:Model>

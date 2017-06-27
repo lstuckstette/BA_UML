@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7pBNYDrcEeepSIfY6D-nnw" name="Allgemeine_Benutzung_Lehrender">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_XP6h0DrmEeeohp79l3IUYg" name="Lehrender"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YIr84DrmEeeohp79l3IUYg" name="Student"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_aEF5oDrmEeeohp79l3IUYg" name="&lt;&lt;extend>>" client="_XP6h0DrmEeeohp79l3IUYg" supplier="_YIr84DrmEeeohp79l3IUYg"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fKGKIDrmEeeohp79l3IUYg" name="(...)"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gVWcUDrmEeeohp79l3IUYg" memberEnd="_gVWcUzrmEeeohp79l3IUYg _gVWcVDrmEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gVWcUTrmEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gVWcUjrmEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gVWcUzrmEeeohp79l3IUYg" name="(...)" type="_fKGKIDrmEeeohp79l3IUYg" association="_gVWcUDrmEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gVWcVDrmEeeohp79l3IUYg" name="student" type="_YIr84DrmEeeohp79l3IUYg" association="_gVWcUDrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_kNsm4DrmEeeohp79l3IUYg" name="Plan einsehen">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kNsm4TrmEeeohp79l3IUYg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kNsm4jrmEeeohp79l3IUYg" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kNsm4zrmEeeohp79l3IUYg" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_pNm2cTrmEeeohp79l3IUYg" name="ExtensionPoint4"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_pgYogTrmEeeohp79l3IUYg" name="ExtensionPoint5"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_pyGqoDrmEeeohp79l3IUYg" name="ExtensionPoint6"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_kNsm5DrmEeeohp79l3IUYg" name="Raumplan einsehen">
+    <extend xmi:type="uml:Extend" xmi:id="_kNsm5TrmEeeohp79l3IUYg" extendedCase="_kNsm4DrmEeeohp79l3IUYg" extensionLocation="_kNsm4jrmEeeohp79l3IUYg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_pNm2cDrmEeeohp79l3IUYg" extendedCase="_kNsm4DrmEeeohp79l3IUYg" extensionLocation="_pNm2cTrmEeeohp79l3IUYg"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kNsm5jrmEeeohp79l3IUYg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_kNsm5zrmEeeohp79l3IUYg" name="persönlichen Plan einsehen">
+    <extend xmi:type="uml:Extend" xmi:id="_kNsm6DrmEeeohp79l3IUYg" extendedCase="_kNsm4DrmEeeohp79l3IUYg" extensionLocation="_kNsm4TrmEeeohp79l3IUYg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_px85oDrmEeeohp79l3IUYg" extendedCase="_kNsm4DrmEeeohp79l3IUYg" extensionLocation="_pyGqoDrmEeeohp79l3IUYg"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kNsm6TrmEeeohp79l3IUYg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_kNsm6jrmEeeohp79l3IUYg" name="Kursplan einsehen">
+    <extend xmi:type="uml:Extend" xmi:id="_kNsm6zrmEeeohp79l3IUYg" extendedCase="_kNsm4DrmEeeohp79l3IUYg" extensionLocation="_kNsm4zrmEeeohp79l3IUYg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_pgYogDrmEeeohp79l3IUYg" extendedCase="_kNsm4DrmEeeohp79l3IUYg" extensionLocation="_pgYogTrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sx6qsDrmEeeohp79l3IUYg" memberEnd="_sx6qszrmEeeohp79l3IUYg _sx6qtDrmEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sx6qsTrmEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sx6qsjrmEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sx6qszrmEeeohp79l3IUYg" name="plan einsehen" type="_kNsm4DrmEeeohp79l3IUYg" association="_sx6qsDrmEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sx6qtDrmEeeohp79l3IUYg" name="lehrender" type="_XP6h0DrmEeeohp79l3IUYg" association="_sx6qsDrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_u2fKgDrmEeeohp79l3IUYg" name="Raumtausch beantragen">
+    <extend xmi:type="uml:Extend" xmi:id="_u2fKgTrmEeeohp79l3IUYg" extendedCase="_u2fKgjrmEeeohp79l3IUYg" extensionLocation="_u2fKgzrmEeeohp79l3IUYg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_58engDrmEeeohp79l3IUYg" extendedCase="_u2fKgjrmEeeohp79l3IUYg" extensionLocation="_58engTrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_u2fKgjrmEeeohp79l3IUYg" name="(kurzfristige) Änderungen eintragen">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_u2fKgzrmEeeohp79l3IUYg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_u2fKhDrmEeeohp79l3IUYg" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_58engTrmEeeohp79l3IUYg" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_6ZiW8TrmEeeohp79l3IUYg" name="ExtensionPoint4"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_u2fKhTrmEeeohp79l3IUYg" name="Kurstermin verschieben">
+    <extend xmi:type="uml:Extend" xmi:id="_u2fKhjrmEeeohp79l3IUYg" extendedCase="_u2fKgjrmEeeohp79l3IUYg" extensionLocation="_u2fKhDrmEeeohp79l3IUYg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_6ZiW8DrmEeeohp79l3IUYg" extendedCase="_u2fKgjrmEeeohp79l3IUYg" extensionLocation="_6ZiW8TrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ynZQUDrmEeeohp79l3IUYg" memberEnd="_ynZQUzrmEeeohp79l3IUYg _ynZQVDrmEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ynZQUTrmEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ynZQUjrmEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ynZQUzrmEeeohp79l3IUYg" name="(kurzfristige) änderungen eintragen" type="_u2fKgjrmEeeohp79l3IUYg" association="_ynZQUDrmEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ynZQVDrmEeeohp79l3IUYg" name="lehrender" type="_XP6h0DrmEeeohp79l3IUYg" association="_ynZQUDrmEeeohp79l3IUYg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zptB4DrmEeeohp79l3IUYg" name="Nachrichten austauschen"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1kpEkDrmEeeohp79l3IUYg" memberEnd="_1kpEkzrmEeeohp79l3IUYg _1kpElDrmEeeohp79l3IUYg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1kpEkTrmEeeohp79l3IUYg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1kpEkjrmEeeohp79l3IUYg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1kpEkzrmEeeohp79l3IUYg" name="lehrender" type="_XP6h0DrmEeeohp79l3IUYg" association="_1kpEkDrmEeeohp79l3IUYg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1kpElDrmEeeohp79l3IUYg" name="nachrichten austauschen" type="_zptB4DrmEeeohp79l3IUYg" association="_1kpEkDrmEeeohp79l3IUYg"/>
+  </packagedElement>
+</uml:Model>
