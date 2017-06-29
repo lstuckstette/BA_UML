@@ -25,4 +25,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_bDpGozosEeek1qewXoHJYg" name="spezifische änderung in plan einflegen" type="_UzYpgDosEeek1qewXoHJYg" association="_bDpGoDosEeek1qewXoHJYg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_bDpGpDosEeek1qewXoHJYg" name="administrator" type="_Hna-gDosEeek1qewXoHJYg" association="_bDpGoDosEeek1qewXoHJYg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sCuJYFzHEeewebsY__s_EA" name="Planungswunsch annehmen/ablehnen"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wnTu4FzHEeewebsY__s_EA" memberEnd="_wnZOcFzHEeewebsY__s_EA _wnZ1gFzHEeewebsY__s_EA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wnWLIFzHEeewebsY__s_EA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wnWLIVzHEeewebsY__s_EA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wnZOcFzHEeewebsY__s_EA" name="planungswunsch annehmen/ablehnen" type="_sCuJYFzHEeewebsY__s_EA" association="_wnTu4FzHEeewebsY__s_EA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wnZ1gFzHEeewebsY__s_EA" name="stundenplaner" type="_Hna-gDosEeek1qewXoHJYg" association="_wnTu4FzHEeewebsY__s_EA"/>
+  </packagedElement>
 </uml:Model>

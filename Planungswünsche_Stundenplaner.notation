@@ -14,7 +14,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_HncMpzosEeek1qewXoHJYg" y="5"/>
     </children>
     <element xmi:type="uml:Actor" href="Planungswünsche_Stundenplaner.uml#_Hna-gDosEeek1qewXoHJYg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HnblkTosEeek1qewXoHJYg" x="384" y="321"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HnblkTosEeek1qewXoHJYg" x="384" y="277"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_QN5sIDosEeek1qewXoHJYg" type="UseCase_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_QN5sIjosEeek1qewXoHJYg" type="UseCase_NameLabel"/>
@@ -55,6 +55,19 @@
     <element xmi:type="uml:UseCase" href="Planungswünsche_Stundenplaner.uml#_UzYpgDosEeek1qewXoHJYg"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UzZQkTosEeek1qewXoHJYg" x="531" y="422"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_sDDgkFzHEeewebsY__s_EA" type="UseCase_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sDEusFzHEeewebsY__s_EA" type="UseCase_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sDEusVzHEeewebsY__s_EA" type="UseCase_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sDEuslzHEeewebsY__s_EA" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_sDFVwFzHEeewebsY__s_EA" type="UseCase_ExtensionPointCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sDFVwVzHEeewebsY__s_EA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sDFVwlzHEeewebsY__s_EA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sDFVw1zHEeewebsY__s_EA"/>
+    </children>
+    <element xmi:type="uml:UseCase" href="Planungswünsche_Stundenplaner.uml#_sCuJYFzHEeewebsY__s_EA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sDDgkVzHEeewebsY__s_EA" x="534" y="150" width="253"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_HJ2RsTosEeek1qewXoHJYg" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_HJ2RsjosEeek1qewXoHJYg"/>
   <styles xmi:type="style:PapyrusViewStyle" xmi:id="_HJ2RszosEeek1qewXoHJYg">
@@ -86,7 +99,7 @@
     <element xmi:type="uml:Association" href="Planungswünsche_Stundenplaner.uml#_aLjBADosEeek1qewXoHJYg"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aLkPIjosEeek1qewXoHJYg" points="[414, 344, -643984, -643984]$[542, 266, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aLtZEDosEeek1qewXoHJYg" id="(1.0,0.46)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aLtZETosEeek1qewXoHJYg" id="(0.0,0.6833333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aLtZETosEeek1qewXoHJYg" id="(0.0,0.6333333333333333)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_anVlIDosEeek1qewXoHJYg" type="Association_Edge" source="_HnblkDosEeek1qewXoHJYg" target="_SBUxkDosEeek1qewXoHJYg">
     <children xmi:type="notation:DecorationNode" xmi:id="_anWMMDosEeek1qewXoHJYg" type="Association_StereotypeLabel">
@@ -140,6 +153,33 @@
     <element xmi:type="uml:Association" href="Planungswünsche_Stundenplaner.uml#_bDpGoDosEeek1qewXoHJYg"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bDptsjosEeek1qewXoHJYg" points="[414, 357, -643984, -643984]$[562, 480, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bDzesDosEeek1qewXoHJYg" id="(1.0,0.72)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bDzesTosEeek1qewXoHJYg" id="(0.04,0.2833333333333333)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bDzesTosEeek1qewXoHJYg" id="(0.0,0.2833333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wndf4FzHEeewebsY__s_EA" type="Association_Edge" source="_HnblkDosEeek1qewXoHJYg" target="_sDDgkFzHEeewebsY__s_EA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wnfVEFzHEeewebsY__s_EA" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_yU0ZkFzHEeewebsY__s_EA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wnf8IFzHEeewebsY__s_EA" x="-1" y="-17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wnf8IVzHEeewebsY__s_EA" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_yU6gMFzHEeewebsY__s_EA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wnf8IlzHEeewebsY__s_EA" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wnf8I1zHEeewebsY__s_EA" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wnf8JFzHEeewebsY__s_EA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wnf8JVzHEeewebsY__s_EA" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wnf8JlzHEeewebsY__s_EA" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wnf8J1zHEeewebsY__s_EA" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wnf8KFzHEeewebsY__s_EA" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wnf8KVzHEeewebsY__s_EA" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wnf8KlzHEeewebsY__s_EA" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wndf4VzHEeewebsY__s_EA"/>
+    <element xmi:type="uml:Association" href="Planungswünsche_Stundenplaner.uml#_wnTu4FzHEeewebsY__s_EA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wndf4lzHEeewebsY__s_EA" points="[414, 335, -643984, -643984]$[608, 207, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_woc-YFzHEeewebsY__s_EA" id="(1.0,0.28)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wodlcFzHEeewebsY__s_EA" id="(0.0,0.5166666666666667)"/>
   </edges>
 </notation:Diagram>
