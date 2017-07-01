@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HtJqUF6PEeeYzrq3C7YvRQ" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_SahL8F6PEeeYzrq3C7YvRQ" name="teacherWishlist">
+    <packagedElement xmi:type="uml:Package" xmi:id="_kdaJoF6PEeeYzrq3C7YvRQ" name="DataTransferObject">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_yqb-IF6REeeYzrq3C7YvRQ">
+        <body>enthält serialisierungs Klassen</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nfYF0F6PEeeYzrq3C7YvRQ" name="Entities">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_EsAGIF6SEeeYzrq3C7YvRQ">
+        <body>enthält Persistierungsklassen</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pS4DwF6PEeeYzrq3C7YvRQ" name="Model">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_juJIgF6SEeeYzrq3C7YvRQ">
+        <body>enthält Datenmodelle</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_w9GkgF6PEeeYzrq3C7YvRQ" name="UI">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_ARx9kF6SEeeYzrq3C7YvRQ">
+        <body>enthält Views und Controller</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_k8K3UF6REeeYzrq3C7YvRQ" client="_w9GkgF6PEeeYzrq3C7YvRQ" supplier="_s4rQUF6QEeeYzrq3C7YvRQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_EKv9wF6TEeeYzrq3C7YvRQ" client="_w9GkgF6PEeeYzrq3C7YvRQ" supplier="_pS4DwF6PEeeYzrq3C7YvRQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_s4rQUF6QEeeYzrq3C7YvRQ" name="PersistenceManagement" URI="">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_JP2r0F6SEeeYzrq3C7YvRQ">
+        <body>enthält Persistierungslogik</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_vPzfwF6QEeeYzrq3C7YvRQ" client="_s4rQUF6QEeeYzrq3C7YvRQ" supplier="_kdaJoF6PEeeYzrq3C7YvRQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_xuxckF6QEeeYzrq3C7YvRQ" client="_s4rQUF6QEeeYzrq3C7YvRQ" supplier="_nfYF0F6PEeeYzrq3C7YvRQ"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
