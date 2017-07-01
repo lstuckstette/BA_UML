@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:PapyrusJava="http://www.eclipse.org/papyrus/PapyrusJava/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_p0JWEF6VEeeYzrq3C7YvRQ" name="RootElement">
+    <packagedElement xmi:type="uml:Package" xmi:id="_dV9sMF6XEeejj5TgCK226g" name="teacherWishlist">
+      <packagedElement xmi:type="uml:Package" xmi:id="_daBs0F6XEeejj5TgCK226g" name="com">
+        <packagedElement xmi:type="uml:Package" xmi:id="_daCT4F6XEeejj5TgCK226g" name="veraplan">
+          <packagedElement xmi:type="uml:Package" xmi:id="_daC68F6XEeejj5TgCK226g" name="teacherWishlist">
+            <packagedElement xmi:type="uml:Package" xmi:id="_daC68V6XEeejj5TgCK226g" name="UI">
+              <packagedElement xmi:type="uml:Class" xmi:id="_ghYfUF6XEeejj5TgCK226g" name="MenuItem"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_daHzcF6XEeejj5TgCK226g" name="importedTypes">
+      <packagedElement xmi:type="uml:Package" xmi:id="_daJBkF6XEeejj5TgCK226g" name="com">
+        <packagedElement xmi:type="uml:Package" xmi:id="_daJBkV6XEeejj5TgCK226g" name="vaadin">
+          <packagedElement xmi:type="uml:Package" xmi:id="_daJBkl6XEeejj5TgCK226g" name="ui">
+            <packagedElement xmi:type="uml:Class" xmi:id="_daJooF6XEeejj5TgCK226g" name="UI"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_ghS_wF6XEeejj5TgCK226g" name="MenuBar"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_dfjtEF6XEeejj5TgCK226g" name="cdi">
+            <packagedElement xmi:type="uml:Class" xmi:id="_dfk7MF6XEeejj5TgCK226g" name="CDIViewProvider"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_dfro4F6XEeejj5TgCK226g" name="server">
+            <packagedElement xmi:type="uml:Class" xmi:id="_dfsP8F6XEeejj5TgCK226g" name="VaadinRequest"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_ghhCMV6XEeejj5TgCK226g" name="navigator">
+            <packagedElement xmi:type="uml:Class" xmi:id="_ghhpQF6XEeejj5TgCK226g" name="Navigator"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_ghdX0F6XEeejj5TgCK226g" name="veraplan">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ghdX0V6XEeejj5TgCK226g" name="teacherWishlist">
+            <packagedElement xmi:type="uml:Package" xmi:id="_ghd-4F6XEeejj5TgCK226g" name="Model">
+              <packagedElement xmi:type="uml:Class" xmi:id="_ghd-4V6XEeejj5TgCK226g" name="CurrentUser"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_c7OwoF6aEeejj5TgCK226g" name="Package1"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_dYjGIF6XEeejj5TgCK226g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dYk7UF6XEeejj5TgCK226g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_dZHG0F6XEeejj5TgCK226g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dZIU8F6XEeejj5TgCK226g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_dZgIYF6XEeejj5TgCK226g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dZgvcF6XEeejj5TgCK226g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <PapyrusJava:External xmi:id="_dfeNgF6XEeejj5TgCK226g" name="com.vaadin.ui.UI" base_Classifier="_daJooF6XEeejj5TgCK226g"/>
+  <PapyrusJava:External xmi:id="_dfolkF6XEeejj5TgCK226g" name="com.vaadin.cdi.CDIViewProvider" base_Classifier="_dfk7MF6XEeejj5TgCK226g"/>
+  <PapyrusJava:External xmi:id="_dfv6UF6XEeejj5TgCK226g" name="com.vaadin.server.VaadinRequest" base_Classifier="_dfsP8F6XEeejj5TgCK226g"/>
+  <PapyrusJava:External xmi:id="_ghXRMF6XEeejj5TgCK226g" name="com.vaadin.ui.MenuBar" base_Classifier="_ghS_wF6XEeejj5TgCK226g"/>
+  <PapyrusJava:External xmi:id="_gha7kF6XEeejj5TgCK226g" name="MenuItem" base_Classifier="_ghYfUF6XEeejj5TgCK226g"/>
+  <PapyrusJava:External xmi:id="_ghgbIF6XEeejj5TgCK226g" name="com.veraplan.teacherWishlist.Model.CurrentUser" base_Classifier="_ghd-4V6XEeejj5TgCK226g"/>
+  <PapyrusJava:External xmi:id="_ghkFgF6XEeejj5TgCK226g" name="com.vaadin.navigator.Navigator" base_Classifier="_ghhpQF6XEeejj5TgCK226g"/>
+</xmi:XMI>

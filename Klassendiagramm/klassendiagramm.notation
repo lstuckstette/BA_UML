@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_p0MZYF6VEeeYzrq3C7YvRQ" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_c7Ql0F6aEeejj5TgCK226g" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_c7RM4F6aEeejj5TgCK226g" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_c7RM4V6aEeejj5TgCK226g" type="Package_PackagedElementCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_c7RM4l6aEeejj5TgCK226g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c7RM416aEeejj5TgCK226g"/>
+    </children>
+    <element xmi:type="uml:Package" href="klassendiagramm.uml#_c7OwoF6aEeejj5TgCK226g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c7Ql0V6aEeejj5TgCK226g" x="404" y="314"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_p0MZYV6VEeeYzrq3C7YvRQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_p0MZYl6VEeeYzrq3C7YvRQ"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_p0MZY16VEeeYzrq3C7YvRQ">
+    <owner xmi:type="uml:Model" href="klassendiagramm.uml#_p0JWEF6VEeeYzrq3C7YvRQ"/>
+  </styles>
+  <element xmi:type="uml:Model" href="klassendiagramm.uml#_p0JWEF6VEeeYzrq3C7YvRQ"/>
+</notation:Diagram>

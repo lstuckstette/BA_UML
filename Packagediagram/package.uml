@@ -3,7 +3,7 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_SahL8F6PEeeYzrq3C7YvRQ" name="teacherWishlist">
     <packagedElement xmi:type="uml:Package" xmi:id="_kdaJoF6PEeeYzrq3C7YvRQ" name="DataTransferObject">
       <ownedComment xmi:type="uml:Comment" xmi:id="_yqb-IF6REeeYzrq3C7YvRQ">
-        <body>enthält serialisierungs Klassen</body>
+        <body>enthält Serialisierungsklassen</body>
       </ownedComment>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_nfYF0F6PEeeYzrq3C7YvRQ" name="Entities">
@@ -15,6 +15,7 @@
       <ownedComment xmi:type="uml:Comment" xmi:id="_juJIgF6SEeeYzrq3C7YvRQ">
         <body>enthält Datenmodelle</body>
       </ownedComment>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_Q6k3oF6ZEeejj5TgCK226g" client="_pS4DwF6PEeeYzrq3C7YvRQ" supplier="_nfYF0F6PEeeYzrq3C7YvRQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_w9GkgF6PEeeYzrq3C7YvRQ" name="UI">
       <ownedComment xmi:type="uml:Comment" xmi:id="_ARx9kF6SEeeYzrq3C7YvRQ">
