@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>333</x>
+      <y>63</y>
+      <w>243</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+CurrentUser
+--
+
+--
++ getPerson(): String
++ getUser(): User
++ isLoggedIn(): boolean
++ setLoggedIn(value:boolean)
++ setPerson(person:Person)
++ setUser(user:User)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>306</x>
+      <y>18</y>
+      <w>774</w>
+      <h>873</h>
+    </coordinates>
+    <panel_attributes>Model</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>666</x>
+      <y>63</y>
+      <w>243</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>CurrentUserImpl
+--
+
+--
++ getPerson(): String
++ getUser(): User
++ isLoggedIn(): boolean
++ setLoggedIn(value:boolean)
++ setPerson(person:Person)
++ setUser(user:User)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>567</x>
+      <y>135</y>
+      <w>117</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>945</x>
+      <y>108</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+RegistrationField</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>324</x>
+      <y>288</y>
+      <w>351</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>StaticSchoolData
+--
+_+ TIMESLOT_COUNT:int_
+
+--
+- StaticSchoolData()
+_+ getTimeSlotEndTime(timeSlotNumber: int): TimeSlotTime_
+_+ getTimeSlotStartTime(timeSlotNumber: int): TimeSlotTime_
+_+ getTimeSlotString(timeSlotNumber: int): String_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>702</x>
+      <y>270</y>
+      <w>360</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>TimeSlot
+--
+
+--
++ TimeSlot(weekday:int, timeSlotNumber:int)
++ getSelected(): boolean
++ getTimeSlotNumber(): int
++ getWeekday(): int
++ printInfo(): String
++ toggleSelected()
++ toPeriodicabsencetimeslotEntity(): Periodicabsencetimeslot
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>747</x>
+      <y>504</y>
+      <w>270</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>TimeSlotRowContainer
+--
+
+--
++ TimeSlotRowContainer(timeSlotNumber:int)
++ getFriday(): TimeSlot
++ getMonday(): TimeSlot
++ getThursday(): TimeSlot
++ getTimeSlots(): List&lt;TimeSlot&gt;
++ getTimeString(): String
++ getTuesday(): TimeSlot
++ getWednesday(): TimeSlot
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>378</x>
+      <y>504</y>
+      <w>225</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>TimeSlotTime
+--
+
+--
++ TimeSlotTime(hours:int, minutes:int)
++ getHours(): int
++ getMinutes(): int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>414</y>
+      <w>63</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+benutzt</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>522</x>
+      <y>702</y>
+      <w>324</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>VacationItem
+--
+
+--
++ VacationItem(startDate:LocalDate,
+endDateLocalDate, 
+comment:String)
++ getComment():String
++ getEndDate(): LocalDate
++ getStartDate(): LocalDate
++ setComment(String)
++ setEndDate(LocalDate)
++ setStartDate(LocalDate)
++ toAbsenceEntity(): Absence
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>864</x>
+      <y>414</y>
+      <w>63</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=5
+m2=1
+enthält</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+</diagram>

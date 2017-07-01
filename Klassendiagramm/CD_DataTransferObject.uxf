@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>410</x>
+      <y>50</y>
+      <w>670</w>
+      <h>820</h>
+    </coordinates>
+    <panel_attributes>DataTransferObject</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>630</y>
+      <w>220</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>AbsenceDTO
+--
+
+--
++ getComment(): String
++ getEnd(): Date
++ getId(): int
++ getStart(): Date
++ setComment(comment: String)
++ setEnd(end:Date)
++ setId(id:int)
++ setStart(start:Date)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>100</y>
+      <w>430</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>TeacherDTO
+--
+
+--
++ getIdTeacher(): int
++ getTeacherWishlists(): List&lt;TeacherwishlistDTO&gt;
++ setIdTeacher(id:int)
++ setTeacherWishlists(teacherWishlists:List&lt;TeacherwishlistDTO&gt;)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>310</y>
+      <w>430</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>TeacherwishlistDTO
+--
+
+--
++ getAbsenceList(): List&lt;AbsenceDTO)
++ getId(): int
++ getPeriodicabsencecomment(): String
++ getPeriodicList(): List&lt;PeriodicabsencetimeslotDTO
++ getTimestamp(): Date
++ setAbsenceList(List&lt;AbsenceDTO&gt;)
++ setId(id:int)
++ setPeriodicabsencecomment(comment:String)
++ setPeriodicList(periodicList:List&lt;PeriodicabsencetimeslotDTO&gt;)
++ setTimestamp(timestamp:Date)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>640</y>
+      <w>270</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>PeriodicabsencetimeslotDTO
+--
+
+--
++ getId(): int
++ getTimeslotnumber(): int
++ getWeekday(): int
++ setId(id:int)
++ setTimeslotnumber(timeslotnumber:int)
++ setWeekday(weekday:int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>520</y>
+      <w>70</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=0..n
+m2=1
+enthält</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>520</y>
+      <w>70</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=0..n
+enthält
+m2=1</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>210</y>
+      <w>70</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=0..n
+m2=1
+besitzt</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

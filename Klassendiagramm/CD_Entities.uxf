@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>360</x>
+      <y>0</y>
+      <w>684</w>
+      <h>1359</h>
+    </coordinates>
+    <panel_attributes>Entities</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>387</x>
+      <y>54</y>
+      <w>306</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Absence
+--
+
+--
++ getComment(): String
++ getEnd(): Date
++ getIdAbsence(): int
++ getStart(): Date
++ getTeacherwishlist(): Teacherwishlist
++ setComment(comment:String)
++ setEnd(end:Date)
++ setIdAbsence(idAbsence:int)
++ setStart(start:Date)
++ setTeacherwishlist(teacherwishlist:Teacherwishlist)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>54</y>
+      <w>306</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Periodicabsencetimeslot
+--
+
+--
++ getIdPeriodicAbsenceTimeslot(): int
++ getTeacherwishlist(): Teacherwishlist
++ getTimeSlotNumber(): int
++ getWeekday(): int
++ setIdPeriodicAbsenceTimeslot(id:int)
++ setTeacherwishlist(teacherwishlist:Teacherwishlist)
++ setTimeSlotNumber(timeslotnumber:int)
++ setWeekday(weekday:int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>468</x>
+      <y>999</y>
+      <w>306</w>
+      <h>351</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Person
+--
+
+--
++ getAddress(): String
++ getBirthdate(): Date
++ getCity(): String
++ getFirstName(): String
++ getGender(): String
++ getIdPerson(): int
++ getLastName(): String
++ getPostalCode(): int
++ getTeacher(): Teacher
++ getUser(): User
++ setAddress(address:String)
++ setBirthdate(birthdate:Date)
++ setCity(city:String)
++ setFirstName(firstname:String)
++ setGender(gender:String)
++ setIdPerson(id:int)
++ setLastName(lastname:String)
++ setPostalCode(postalcode:int)
++ setTeacher(teacher:Teacher)
++ setUser(user:User)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>855</x>
+      <y>999</y>
+      <w>135</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Role
+--
+
+--
++ getIdRole(): id
++ getRole(): String
++ setIdRole(id:int)
++ setRole(role:String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>387</x>
+      <y>756</y>
+      <w>342</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Teacher
+--
+
+--
++ getHireDate(): Date
++ getIdTeacher():int
++ getTeacherwishlists(): List&lt;Teacherwishlist&gt;
++ setHireDate(hiredate:Date)
++ setIdTeacher(id:int)
++ setTeacherwishlists(teacherwishlists:List&lt;Teacherwishlist&gt;)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>495</x>
+      <y>360</y>
+      <w>396</w>
+      <h>297</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Teacherwishlist
+--
+
+--
++ addAbsence(Absence)
++ addPeriodicabsencetimeslot(pats:Periodicabsencetimeslot)
++ getAbsences(): List&lt;Absence&gt;
++ getDate(): Timestamp
++ getIdTeacherWishlist(): int
++ getPeriodicAbsenceComment(): String
++ getPeriodicabsencetimeslots(): List&lt;Periodictabsencetimeslot
++ getTeacher(): Teacher
++ removeAbsence(absence:Absence)
++ removePeriodicabsencetimeslot(pats:Periodicabsencetimeslot)
++ setAbsences(absences:List&lt;Absence&gt;)
++ setDate(date:Timestamp)
++ setIdTeacherWishlist(id:int)
++ setPeriodicAbsenceComment(comment:String)
++ setPeriodicabsencetimeslots(pats:List&lt;Periodicabsencetimeslot&gt;)
++ setTeacher(teacher:Teacher)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>756</x>
+      <y>675</y>
+      <w>270</w>
+      <h>243</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+User
+--
+
+--
++ getCreateTime(): Timestamp
++ getIdUserEmail(): String
++ getNotificationEmail(): String
++ getPassword(): String
++ getRole(): Role
++ setCreateTime(createtime:Timestamp)
++ setIdUserEmail(email:String)
++ setNotificationEmail(notificationemail:String)
++ setPassword(password:String)
++ setRole(role:Role)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>549</x>
+      <y>270</y>
+      <w>63</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=0..n
+m2=1
+enthält</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>846</x>
+      <y>261</y>
+      <w>63</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=0..n
+m2=1
+enthält</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>648</y>
+      <w>63</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=0..n
+m2=1
+besitzt</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>936</x>
+      <y>909</y>
+      <w>63</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+enthält</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>909</y>
+      <w>171</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+enthält</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>900</y>
+      <w>90</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+enthält</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;110.0</additional_attributes>
+  </element>
+</diagram>

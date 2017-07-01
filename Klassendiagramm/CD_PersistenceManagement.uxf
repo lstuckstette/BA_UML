@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>300</y>
+      <w>270</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>EvaluationExportManager
+--
+
+--
++ getEvaluationBatchJSONData(): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>300</y>
+      <w>400</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>EvaluationPersistenceManager
+--
+
+--
++ checkUserLogin(email:String, password:String): boolean
++ getPeople(): List&lt;Person&gt;
++ getPeopleRepresentingTeacher(): List&lt;Person&gt;
++ getPerson(user:User): Person
++ getRole( roleCaption:String): Role
++ getSingleUser(emailId:String): User
++ getTeacher(user:User): Teacher
++ getTeacher():List&lt;Teacher&gt;
++ getTeacherwishlist(teacher:Teacher): List&lt;Teacherwishlist&gt;
++ getUser(): List&lt;User&gt;
++ persistEvaluation(	user:User,
+inputPeriodicAbsence:List&lt;TimeSlot&gt;,
+inputVacation:List&lt;Vacation&gt;)
++ registerUser(inputData:Map&lt;RegistrationField,String&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>330</x>
+      <y>260</y>
+      <w>750</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>PersistenceManagement</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
